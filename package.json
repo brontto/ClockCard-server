@@ -1,0 +1,25 @@
+{
+  "name": "clockcard-server",
+  "version": "0.0.1",
+  "description": "node server for clockcard software",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brontto/clockcard-server.git"
+  },
+  "author": "Henri Virtanen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brontto/clockcard-server/issues"
+  },
+  "homepage": "https://github.com/brontto/clockcard-server#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
