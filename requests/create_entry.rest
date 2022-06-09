@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/entries
+Content-Type: application/json
+
+{
+    "hours": 3,
+    "mins": 30,
+    "date": "2022-05-08"
+}
